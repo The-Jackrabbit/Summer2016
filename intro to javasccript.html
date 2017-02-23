@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Introduction</title>
+    <script type="text/javascript">
+        //var name; // you gotta declare shit in js
+        function makeAwesome(){
+            // code in here
+            alert("its dat boi!!!");
+        }
+        function mathsBitch(numberOne, numberTwo){
+            document.write(numberOne + numberTwo);
+        }
+
+        var butts = new Array("strong", "square", "thicc", "bubble", "small");
+
+        var day="tuesday";
+        switch(day){
+            case "saturday" || "sunday":
+                document.write("<h1>BASTARDBOWL GET HYPE</h1>");
+                break;
+            default:
+                document.write("<h1>CLEGANEBOWL FUCKING CONFIRMED</h1>");
+                break;
+        }
+
+        var myAge = 19;
+        var minAge = 18;
+        var maxAge = 27;
+
+        if((myAge >= minAge) || (myAge <= maxAge) ){  // "||" is the or operator, "&&" is the and operator
+            document.write("Welcome to the bonezone");
+        }
+
+        function whileTest(){
+            var x=1
+            while(x<=10){
+                document.write("<p> This is paragraph " + x + ". <p><br>");
+                x+= 1;
+            }
+        }
+    </script>
+</head>
+<body>
+    <hr>
+    <form>
+        <input type="button" value="do it" onclick="whileTest();"/>
+    </form>
+
+    <div class="Test">
+        <h4>swag on 40</h4>
+    </div>
+</body>
+</html>
